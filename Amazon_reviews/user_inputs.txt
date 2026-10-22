@@ -1,0 +1,11 @@
+Transformational AI: Analyzing Ecommerce Large Datasets for Machine Learning
+Completed by: Gnana Prasuna Mannava
+—————————————-
+
+Question 1: unable to see a clearly formatted only columns rating, title and text are visible. Data types include floats, text and boolean values.  
+Question 2: Expected a clearly formatted table but still seeing unorganized content but now all column headers
+Question 3: Limiting the rows to 10 did the trick. Much clearer and formatted table 
+Question 4: Metadata is data that describes the data. The earlier dataset about reviews talks about the product review but the meta data is describing the  product which is being reviewed
+Question 5:  df.info() and df.describe() are very helpful in my opinion as they give a detailed snapshot of what's in the data. Any inconsistencies in the data will cost us during model building and these methods help in making data clean and consistent. 
+Question 6: Looks like this dataframe has more cheaper products than pricey ones. 
+Question 7: Scatterplot shows that there are more cheaper products in this dataframe with higher reviews. But I wouldn't conclude that cheaper products are consistently rated higher because we dropped some nulls with no price from our initial df
